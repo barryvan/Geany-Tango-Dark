@@ -1,0 +1,96 @@
+# For complete documentation of this file, please see Geany's main documentation
+[styling]
+# foreground;background;bold;italic
+html_default=0xeeeeec;0x2e3436;false;false
+html_tag=0x729fcf;0x2e3436;false;false
+html_tagunknown=0x729fcf;0x2e3436;false;false
+html_attribute=0x729fcf;0x2e3436;false;false
+html_attributeunknown=0xffffff;0x2e3436;false;false
+html_number=0x8ae234;0x2e3436;false;false
+html_doublestring=0x8ae234;0x2e3436;false;false
+html_singlestring=0x8ae234;0x2e3436;false;false
+html_other=0xffffff;0x2e3436;false;false
+html_comment=0x888a85;0x2e3436;false;false
+html_entity=0x8ae234;0x2e3436;false;false
+html_tagend=0x729fcf;0x2e3436;false;false
+# <?
+html_xmlstart=0x729fcf;0x2e3436;false;false
+# ?>
+html_xmlend=0x729fcf;0x2e3436;false;false
+# <script
+html_script=0xffffff;0x2e3436;false;false
+# <% ... %>
+html_asp=0xffffff;0x2e3436;false;false
+# <%@ ... %>
+html_aspat=0xffffff;0x2e3436;false;false
+html_cdata=0xffffff;0x2e3436;false;false
+html_question=0xffffff;0x2e3436;false;false
+html_value=0xffffff;0x2e3436;false;false
+html_xccomment=0x888a85;0x2e3436;false;false
+
+sgml_default=0xeeeeec;0x2e3436;false;false
+sgml_comment=0x888a85;0x2e3436;false;false
+sgml_special=0xffffff;0x2e3436;false;false
+sgml_command=0xfffffff;0x2e3436;false;false
+sgml_doublestring=0x3465a4;0x2e3436;false;false
+sgml_simplestring=0x3465a4;0x2e3436;false;false
+sgml_1st_param=0xffffff;0x2e3436;false;false
+sgml_entity=0xFFA95C;0x2e3436;false;false
+sgml_block_default=0xffffff;0x2e3436;false;false
+sgml_1st_param_comment=0xffffff;0x2e3436;false;false
+sgml_error=0xff0000;0x2e3436;false;false
+
+php_default=0xeeeeec;0x2e3436;false;false
+php_simplestring=0x8ae234;0x2e3436;false;false
+php_hstring=0x8ae234;0x2e3436;false;false
+php_number=0x8ae234;0x2e3436;false;false
+php_word=0x729fcf;0x2e3436;false;false
+php_variable=0xad7fa8;0x2e3436;false;false
+php_comment=0x888a85;0x2e3436;false;false
+php_commentline=0x888a85;0x2e3436;false;false
+php_operator=0xfcaf3e;0x2e3436;false;false
+php_hstring_variable=0x8ae234;0x2e3436;false;false
+php_complex_variable=0xffffff;0x2e3436;false;false
+
+jscript_start=0xeeeeec;0x2e3436;false;false
+jscript_default=0xeeeeec;0x2e3436;false;false
+jscript_comment=0x888a85;0x2e3436;false;false
+jscript_commentline=0x888a85;0x2e3436;false;false
+jscript_commentdoc=0x888a85;0x2e3436;false;false
+jscript_number=0x8ae234;0x2e3436;false;false
+jscript_word=0x729fcf;0x2e3436;false;false
+jscript_keyword=0x729fcf;0x2e3436;false;false
+jscript_doublestring=0x8ae234;0x2e3436;false;false
+jscript_singlestring=0x8ae234;0x2e3436;false;false
+jscript_symbols=0x8ae234;0x2e3436;false;false
+jscript_stringeol=0xeeeeec;0x2e3436;false;false
+
+
+
+[keywords]
+html=a abbr acronym address applet area b base basefont bdo big blockquote body br button caption center cite code col colgroup dd del dfn dir div dl dt em embed fieldset font form frame frameset h1 h2 h3 h4 h5 h6 head hr html i iframe img input ins isindex kbd label legend li link map menu meta noframes noscript object ol optgroup option p param pre q quality s samp script select small span strike strong style sub sup table tbody td textarea tfoot th thead title tr tt u ul var xmlns leftmargin topmargin abbr accept-charset accept accesskey action align alink alt archive axis background bgcolor border cellpadding cellspacing char charoff charset checked cite class classid clear codebase codetype color cols colspan compact content coords data datafld dataformatas datapagesize datasrc datetime declare defer dir disabled enctype face for frame frameborder selected headers height href hreflang hspace http-equiv id ismap label lang language link longdesc marginwidth marginheight maxlength media framespacing method multiple name nohref noresize noshade nowrap object onblur onchange onclick ondblclick onfocus onkeydown onkeypress onkeyup onload onmousedown onmousemove onmouseover onmouseout onmouseup onreset onselect onsubmit onunload profile prompt pluginspage readonly rel rev rows rowspan rules scheme scope scrolling shape size span src standby start style summary tabindex target text title type usemap valign value valuetype version vlink vspace width text password checkbox radio submit reset file hidden image public doctype xml
+javascript=break this for while null else var false void new delete typeof if in continue true function with return case super extends do const try debugger catch switch finally enum export default class throw import length concat join pop push reverse shift slice splice sort unshift Date Infinity NaN undefined escape eval isFinite isNaN Number parseFloat parseInt string unescape Math abs acos asin atan atan2 ceil cos exp floor log max min pow random round sin sqrt tan MAX_VALUE MIN_VALUE NEGATIVE_INFINITY POSITIVE_INFINITY toString valueOf String length anchor big bold charAt charCodeAt concat fixed fontcolor fontsize fromCharCode indexOf italics lastIndexOf link slice small split strike sub substr substring sup toLowerCase toUpperCase
+vbscript=and as byref byval case call const continue dim do each else elseif end error exit false for function global goto if in loop me new next not nothing on optional or private public redim rem resume select set sub then to true type while with boolean byte currency date double integer long object single string type variant
+python=and assert break class continue complex def del elif else except exec finally for from global if import in inherit is int lambda not or pass print raise return tuple try unicode while yield long float str list
+php=and or xor FILE exception LINE array as break case class const continue declare default die do echo else elseif empty  enddeclare endfor endforeach endif endswitch endwhile eval exit extends for foreach function global if include include_once  isset list new print require require_once return static switch unset use var while FUNCTION CLASS METHOD final php_user_filter interface implements extends public private protected abstract clone try catch throw cfunction old_function this
+sgml=ELEMENT DOCTYPE ATTLIST ENTITY NOTATION
+
+
+[settings]
+# the following characters are these which a "word" can contains, see documentation
+#wordchars=_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+
+# if only single comment char is supported like # in this file, leave comment_close blank
+comment_open=<!--
+comment_close=-->
+
+# set to false if a comment character/string should start at column 0 of a line, true uses any
+# indentation of the line, e.g. setting to true causes the following on pressing CTRL+d
+	#command_example();
+# setting to false would generate this
+#	command_example();
+# This setting works only for single line comments
+comment_use_indent=true
+
+# context action command (please see Geany's main documentation for details)
+context_action_cmd=

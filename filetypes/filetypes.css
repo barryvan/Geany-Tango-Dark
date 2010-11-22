@@ -1,0 +1,60 @@
+# For complete documentation of this file, please see Geany's main documentation
+[styling]
+# foreground;background;bold;italic
+default=0xeeeeec;0x2e3436;false;false
+comment=0x888a85;0x2e3436;false;false
+tag=0x729fcf;0x2e3436;false;false
+class=0xe9b96e;0x2e3436;false;false
+pseudoclass=fcaf3e;0x2e3436;false;true
+unknown_pseudoclass=fcaf3e;0x2e3436;false;false
+unknown_identifier=ad7fa8;0x2e3436;false;false
+operator=0xfcaf3e;0x2e3436;false;false
+identifier=0xad7fa8;0x2e3436;false;false
+doublestring=0x8ae234;0x2e3436;false;false
+singlestring=0x8ae234;0x2e3436;false;false
+attribute=0x729fcf;0x2e3436;false;false
+value=0xffffff;0x2e3436;false;false
+id=0xe9b96e;0x2e3436;false;false
+identifier2=0xad7fa8;0x2e3436;false;false
+important=0xef2929;0x2e3436;false;false
+directive=0x3465a4;0x2e3436;false;true
+identifier3=0xad7fa8;0x2e3436;false;false
+pseudoelement=0x729fcf;0x2e3436;false;false
+extended_identifier=0xad7fa8;0x2e3436;false;false
+extended_pseudoclass=0xfcaf3e;0x2e3436;false;false
+extended_pseudoelement=0x729fcf;0x2e3436;false;false
+
+[keywords]
+# CSS 1 properties
+primary=background background-attachment background-color background-image background-position background-repeat border border-bottom border-bottom-width border-color border-left border-left-width border-right border-right-width border-style border-top border-top-width border-width clear color display float font font-family font-size font-style font-variant font-weight height letter-spacing line-height list-style list-style-image list-style-position list-style-type margin margin-bottom margin-left margin-right margin-top padding padding-bottom padding-left padding-right padding-top text-align text-decoration text-indent text-transform vertical-align white-space width word-spacing
+# CSS 2 properties
+secondary=azimuth border-bottom-color border-bottom-style border-collapse border-left-color border-left-style border-right-color border-right-style border-spacing border-top-color border-top-style bottom caption-side clip content counter-increment counter-reset cue cue-after cue-before cursor direction elevation empty-cells font-size-adjust font-stretch left max-height max-width min-height min-width orphans outline outline-color outline-style outline-width overflow page-break-after page-break-before page-break-inside pause pause-after pause-before pitch pitch-range play-during position quotes richness right speak speak-header speak-numeral speak-punctuation speech-rate stress table-layout top unicode-bidi visibility voice-family volume widows z-index
+css3_properties=alignment-adjust alignment-baseline appearance ascent background-break background-clip background-origin background-size baseline baseline-shift bbox bookmark-label bookmark-level bookmark-target border-bottom-left-radius border-bottom-right-radius border-break border-image border-length border-radius border-top-left-radius border-top-right-radius box-align box-direction box-flex box-flex-group box-lines box-orient box-pack box-shadow box-sizing box-sizing cap-height centerline column-break-after column-break-before column-count column-fill column-gap column-rule column-rule-color column-rule-style column-rule-width columns column-span column-width crop definition-src descent dominant-baseline drop-initial-after-adjust drop-initial-after-align drop-initial-before-adjust drop-initial-before-align drop-initial-size drop-initial-value fit fit-position float-offset font-effect font-emphasize font-emphasize-position font-emphasize-style font-size-adjust font-smooth hanging-punctuation hyphenate-after hyphenate-before hyphenate-character hyphenate-lines hyphenate-resource hyphens icon image-orientation image-resolution inline-box-align line-stacking line-stacking-ruby line-stacking-shift line-stacking-strategy mark mark-after mark-before marks marquee-direction marquee-loop marquee-speed marquee-style mathline move-to nav-down nav-index nav-left nav-right nav-up opacity outline-offset overflow-style overflow-x overflow-y page page-policy panose-1 phonemes presentation-level punctuation-trim resize rest rest-after rest-before rotation rotation-point ruby-align ruby-overhang ruby-position ruby-span size slope src stemh stemv string-set tab-side target target-name target-new target-position text-align-last text-emphasis text-height text-indent text-justify text-outline text-replace text-shadow text-wrap topline unicode-range units-per-em voice-balance voice-duration voice-pitch voice-pitch-range voice-rate voice-stress voice-volume white-space-collapse widths word-break word-wrap x-height
+pseudoclasses=active after before checked current disabled empty enabled first-child first-letter first-line first-of-type focus hover lang last-of-type link not nth-child nth-last-child nth-last-of-type nth-of-type only-child only-of-type root target visited
+pseudo_elements=after before choices first-letter first-line line-marker marker outside repeat-index repeat-item selection slot value
+browser_css_properties=-moz-appearenace -moz-background-clip -moz-background-inline-policy -moz-background-origin -moz-background-size -moz-border-bottom-colors -moz-border-left-colors -moz-border-right-colors -moz-border-top-colors -moz-binding -moz-border-end -moz-border-end-color -moz-border-end-style -moz-border-end-width -moz-border-image -moz-border-radius -moz-border-radius-bottomleft -moz-border-radius-bottomright -moz-border-radius-topleft -moz-border-radius-topright -moz-border-start -moz-border-start-color -moz-border-start-style -moz-border-start-width -moz-box-align -moz-box-direction -moz-box-flex -moz-box-flexgroup -moz-box-ordinal-group -moz-box-orient -moz-box-pack -moz-box-shadow -moz-box-sizing -moz-column-count -moz-column-gap -moz-column-width -moz-column-rule -moz-column-rule-width -moz-column-rule-style -moz-column-rule-color -moz-float-edge -moz-force-broken-image-icon -moz-image-region -moz-margin-end -moz-margin-start -moz-outline-radius -moz-outline-radius-bottomleft -moz-outline-radius-bottomright -moz-outline-radius-topleft -moz-outline-radius-topright -moz-padding-end -moz-padding-start -moz-stack-sizing -moz-transform -moz-transform-origin -moz-user-focus -moz-user-input -moz-user-modify -moz-user-select -moz-window-shadow -o-text-overflow -wap-accesskey -wap-input-format -wap-input-required -wap-marquee -wap-marquee-dir -wap-marquee-loop -wap-marquee-speed -wap-marquee-style -webkit-appearance -webkit-background-clip -webkit-background-composite -webkit-background-origin -webkit-background-size -webkit-binding -webkit-border-bottom-left-radius -webkit-border-bottom-right-radius -webkit-border-fit -webkit-border-horizontal-spacing -webkit-border-image -webkit-border-radius -webkit-border-top-left-radius -webkit-border-top-right-radius -webkit-border-vertical-spacing -webkit-box-align -webkit-box-direction -webkit-box-flex -webkit-box-flex-group -webkit-box-lines  -webkit-box-ordinal-group -webkit-box-orient -webkit-box-pack -webkit-box-shadow -webkit-box-sizing -webkit-column-break-after -webkit-column-break-before -webkit-column-break-inside -webkit-column-count -webkit-column-gap -webkit-column-rule -webkit-column-rule-color -webkit-column-rule-style -webkit-column-rule-width -webkit-column-width -webkit-columns -webkit-dashboard-region -webkit-font-size-delta -webkit-highlight -webkit-line-break -webkit-line-clamp -webkit-margin-bottom-collapse -webkit-margin-collapse -webkit-margin-start -webkit-margin-top-collapse -webkit-marquee -webkit-marquee-direction -webkit-marquee-increment -webkit-marquee-repetition -webkit-marquee-speed -webkit-marquee-style -webkit-match-nearest-mail-blockquote-color -webkit-nbsp-mode -webkit-padding-start -webkit-rtl-ordering -webkit-text-decorations-in-effect -webkit-text-fill-color -webkit-text-security -webkit-text-size-adjust -webkit-text-stroke -webkit-text-stroke-color -webkit-text-stroke-width -webkit-user-drag -webkit-user-modify -webkit-user-select -ms-filter -ms-layout-grid -ms-layout-grid-type -ms-text-align-last -ms-text-justify -ms-text-underline-position -ms-word-break -ms-layout-grid-char -ms-text-autospace -ms-text-kashida-space -ms-ime-mode -ms-layout-grid-line -ms-text-overflow -ms-word-wrap -ms-layout-flow -ms-layout-grid-mode -ms-background-position-x -ms-background-position-y -ms-overflow-x -ms-overflow-y -ms-scrollbar-arrow-color -ms-scrollbar-highlight-color -ms-scrollbar-base-color -ms-scrollbar-shadow-color -ms-interpolation-mode -ms-scrollbar-darkshow-color -ms-zoom -ms-scrollbar-3dlight-color -ms-scrollbar-face-color
+browser_pseudo_classes=-moz-alt-text -moz-any-link -moz-bound-element -moz-broken -moz-drag-over -moz-first-node -moz-last-node -moz-list-bullet -moz-locale-dir(ltr) -moz-locale-dir(rtl) -moz-only-whitespace -moz-placeholder -moz-system-metric(images-in-menus) -moz-system-metric(mac-graphite-theme) -moz-system-metric(scrollbar-end-forward) -moz-system-metric(scrollbar-start-backward) -moz-system-metric(scrollbar-start-forward) -moz-system-metric(scrollbar-thumb-proportional) -moz-system-metric(touch-enabled) -moz-system-metric(windows-default-theme) -moz-tree-checkbox -moz-tree-cell -moz-tree-cell-text -moz-tree-cell-text(hover) -moz-tree-column -moz-tree-drop-feedback -moz-tree-image -moz-tree-indentation -moz-tree-line -moz-tree-progressmeter -moz-tree-row -moz-tree-row(hover) -moz-tree-separator -moz-tree-twisty
+browser_pseudo_elements=-moz-anonymous-block -moz-anonymous-positioned-block -moz-canvas -moz-cell-content -moz-inline-table -moz-page -moz-page-sequence -moz-pagebreak -moz-pagecontent -moz-selection -moz-scrolled-canvas -moz-scrolled-content -moz-scrolled-page-sequence -moz-svg-foreign-content -moz-table -moz-table-cell -moz-table-column -moz-table-column-group -moz-table-outer -moz-table-row -moz-table-row-group -moz-viewport -moz-viewport-scroll -moz-xul-anonymous-block
+
+
+[settings]
+# default extension used when saving files
+#extension=css
+
+# the following characters are these which a "word" can contains, see documentation
+#wordchars=_-abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+
+# if only single comment char is supported like # in this file, leave comment_close blank
+comment_open=/*
+comment_close=*/
+
+# set to false if a comment character/string should start at column 0 of a line, true uses any
+# indentation of the line, e.g. setting to true causes the following on pressing CTRL+d
+	#command_example();
+# setting to false would generate this
+#	command_example();
+# This setting works only for single line comments
+comment_use_indent=true
+
+# context action command (please see Geany's main documentation for details)
+context_action_cmd=
