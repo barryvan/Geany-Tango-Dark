@@ -1,3 +1,8 @@
 [styling]
 default=0xeeeeec;0x2e3436;false;false
 current_line=0×0;0x565a5b;true;false
+# Colour of the caret(the blinking cursor), only first and third argument is interpreted
+# Set the third argument to true to change the caret into a block caret
+caret=0xffffff;0xffffff;false;
+# Set foreground and background colour of indentation guides
+indent_guide=0x000000;0xc0c0c0;
