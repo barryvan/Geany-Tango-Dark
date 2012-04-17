@@ -1,6 +1,6 @@
 [styling]
 default=0xeeeeec;0x2e3436;false;false
-current_line=0×0;0x565a5b;true;false
+current_line=;0x565a5b;true;false
 # Colour of the caret(the blinking cursor), only first and third argument is interpreted
 # Set the third argument to true to change the caret into a block caret
 caret=0xffffff;0xffffff;false;
