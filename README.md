@@ -1,7 +1,11 @@
-# Geany Tango Dark colour scheme
+# Geany 1.22 and above #
+
+If you are running Geany 1.22 or above, you can find this theme (and many more) at https://github.com/codebrainz/geany-themes. Thanks to Matthew Brush for porting it.
+
+## Geany Tango Dark colour scheme
 This theme is a simple, Tango! palette-based colour scheme for Geany, with a dark base. The colours are loosely based on the Dark Geany project.
 
-## Supported languages
+### Supported languages
 
  * Python (contributed by batisteo)
  * C
@@ -15,12 +19,13 @@ This theme is a simple, Tango! palette-based colour scheme for Geany, with a dar
  * Shell scripts
  * XHTML
 
-## Contributing
+### Contributing
 
 Just send me a pull request.
 
-## Contributors
+### Contributors
 
  * Oscar Sánchez
  * batisteo
+ * Nguyễn Hồng Quân
  * Anyone who's forked and pushed changes. :)
